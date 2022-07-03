@@ -1,0 +1,98 @@
+.form {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 95vh;
+}
+.form .loginPart h1 {
+  letter-spacing: -0.2rem;
+  margin: 20px;
+  color: white;
+}
+.form .loginPart {
+  background: #0099ff;
+  width: 60%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  padding-right: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.form .loginPart input {
+  margin: 10px 10px 10px 10px;
+  padding: 15px 20px 15px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 80%;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  outline: #0099ff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.form .loginPart input[type=submit] {
+  margin: 10px 10px 10px 10px;
+  cursor:pointer;
+  padding:0px;
+  padding-left:40px;
+  padding-right:40px;
+  border-radius: 10px;
+  width:50px;
+  height:50px;
+  display:flex !important;
+  align-items:center;
+  justify-content:center;
+  font-size:2rem;
+  border: none;
+  background: #fff;
+  color: #0099ff;
+  outline: #0099ff;
+}
+.form .users_list {
+  margin-top: 50px;
+  background: #0099ff;
+  width: 60%;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.form .users_list .card {
+  background: white;
+  width: 50%;
+  color: #0099ff;
+  margin: 10px;
+  height: 50px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding-right: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.form .user_list h2 {
+  text-transform: uppercase;
+  margin-left: 30px !important;
+  font-weight: lighter !important;
+  display: none;
+}
+.form .user_list .card img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
