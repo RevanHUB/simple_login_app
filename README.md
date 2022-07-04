@@ -1,4 +1,4 @@
-# Create React App: Login Platform
+# Create React App: Login Platform NodeJS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
